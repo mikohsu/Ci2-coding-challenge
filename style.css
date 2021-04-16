@@ -1,0 +1,189 @@
+
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: RobotoSlab;
+  src: url('RobotoSlab-Regular.ttf');
+}
+
+/* heaer section */
+header {
+  background-image: url("./images/ci2_header_image_tesing.jpg");
+  background-size: cover;
+  width: auto;
+  height: auto;
+  color: white;
+  padding: 50px;
+}
+
+.header-section {
+  clear: both;
+  padding: 20px 50px ;
+  margin-top: 60px;
+}
+
+.header-txt1 {
+  font-size: 2.5em;
+  margin: 0;
+
+
+}
+.header-txt2 {
+  font-size: 5.5em;
+  margin: 0 0 20px ;
+  font-family: RobotoSlab;
+}
+
+.nav-links{
+  width: 100%;
+  float: right;
+}
+
+nav a {
+  color: white;
+}
+
+ul {
+  height: 100px;
+  float: right;
+}
+li{
+  float: left;
+  display: block;
+  margin-left: 56px;
+}
+nav {
+  height: 200px;
+  display: flex;
+}
+
+
+#conversation-btn {
+  color: white;
+  background-color: #F29A26;
+  border: 0px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.learn-more {
+  font-size: .8em;
+}
+
+.white-link {
+  color: white;
+  margin-left: 15px;
+}
+
+.learn-more > .blue-link {
+  color: #2774AB;
+  font-weight: bold;
+}
+
+/* partners section */
+
+#partners {
+  background-color: #ECECEC;
+  margin: 5px 0px;
+  display: flex;
+  padding: 25px 30px;
+}
+
+.partner-links {
+  margin: auto;
+  width: 20%;
+}
+
+.partner-links img {
+  display: block;
+  margin: auto;
+}
+
+/* Arrow SVG code  */
+
+.cls-1 {
+  fill:none;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width:2px;
+}
+.white-stroke {
+  stroke:white;
+}
+.blue-stroke {
+  stroke:#2774AB;
+}
+.black-stroke {
+  stroke:black;
+}
+
+/* information section  */
+
+.info-section {
+  display: flex;
+  padding: 70px 50px;
+}
+
+.col-left {
+  width: 60%;
+  display: flex;
+}
+.col-right {
+  width: 40%;
+}
+.info-image {
+  width: 100%;
+}
+.blue-icon {
+  margin-top: 110px;
+}
+.paragraph {
+  padding: 80px 50px 0 20px;
+}
+.paragraph p {
+  font-size: 1.2em;
+}
+
+/* footer  */
+footer {
+  background-color: #292929;
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.tab-container {
+  width: 90%;
+  display: flex;
+  margin: auto auto 0px auto;
+  height: 40px;
+}
+
+.tab {
+  background-color: white;
+  width: 95%;
+  border-radius: 15px 15px 0px 0px;
+  padding: 0px 20px;
+}
+
+.tab-text {
+  font-size: .8em;
+}
+
+.arrow{
+  background-color: white;
+  /* Not sure about using percents here */
+  /* Starts to loose the round shape if window is too wide */
+  width: 4%;
+  margin-left: 1%;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.arrow-up {
+  width: 18px;
+  margin: 12px auto;
+}
