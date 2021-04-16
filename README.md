@@ -2,7 +2,7 @@
 
 This repo is a quick example of my coding skills in html and css.
 
-You can also view this project online [here](ci2.mkhsu.com).
+You can also view this project online [here](https://ci2.mkhsu.com).
 
 ### Files to review
 
