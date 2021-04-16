@@ -2,7 +2,7 @@
 
 This repo is a quick example of my coding skills in html and css.
 
-You can also find this code online at ci2.mkhsu.com.
+You can also find this code online [here](ci2.mkhsu.com).
 
 ### Files to review
 
