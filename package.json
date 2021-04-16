@@ -1,0 +1,15 @@
+{
+  "name": "ci2-coding-challenge",
+  "version": "1.0.0",
+  "description": "ci2 coding test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Miko Hsu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
